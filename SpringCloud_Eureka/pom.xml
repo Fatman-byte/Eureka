@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>provider-eureka</module>
-        <module>controller-Eureka</module>
-        <module>eureka-server</module>
+        <module>provider-service</module>
+        <module>consumer-controller</module>
+        <module>eureka</module>
     </modules>
 
     <parent>
