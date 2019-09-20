@@ -1,0 +1,8 @@
+server:
+  port: 12000
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false # 配置单机版
+    service-url:
+      defaultZone: http://localhost:12000/eureka
