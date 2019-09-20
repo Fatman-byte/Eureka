@@ -1,5 +1,5 @@
 server:
-  port: 10003
+  port: 10005
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test_2?useUnicode=true&characterEncoding=utf8&useSSL=false
@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   application:
-    name: 04provider-eureka
+    name: 06provider-eureka
 
 eureka:
   client:
